@@ -59,7 +59,7 @@ HALF-SUBTRACTOR
 
 Developed by:Sukirthana.M
 RegisterNumber: 212224220112
-
+```
 module EXP3(a,b,sum,carry,diff,borr);
 input a,b;
 output sum,carry,diff,borr;
@@ -68,6 +68,7 @@ assign carry=(a&b);
 assign diff=(a^b);
 assign borr=(~a&b);
 endmodule
+```
 */
 
 **RTL Schematic**
